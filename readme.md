@@ -10,4 +10,6 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+We use Docker and Docker Compose to develop Anything Market.  What does this mean to you.  Well you need to pull down the impages in order to run the application.  To do this run `docker compose up`  This assumes you have docker installed on your machine.
+After docker compose runs lots of stuff on the screen you can test your setup by openning a browser and going to `http://localhost:3001/`  That should bring up the home page for the product.
+To stop the product you can press `Ctrl-c` to shutdown Docker.
